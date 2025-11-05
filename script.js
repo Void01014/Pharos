@@ -82,7 +82,11 @@ window.addEventListener("DOMContentLoaded", () => {
     const filter_btns = document.getElementById('filter_btns');
 
     filter_btns.addEventListener('click', event => {
-        if
+        let isButton = event.target.nodeName === 'BUTTON';
+
+        if(isButton){
+            for 
+        }
     });
 
 
