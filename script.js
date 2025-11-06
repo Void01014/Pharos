@@ -83,9 +83,17 @@ window.addEventListener("DOMContentLoaded", () => {
 
     filter_btns.addEventListener('click', event => {
         let isButton = event.target.nodeName === 'BUTTON';
-
+        let id = event.target.id;
+        
         if(isButton){
-            for 
+            btns.forEach(btn => {
+                let cards = Array.from(document.querySelectorAll(".cards")); 
+
+                cards.forEach(check_rare =>{
+                    // if(id == ){
+                    // }
+                });
+            });
         }
     });
 
